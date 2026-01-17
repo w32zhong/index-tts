@@ -1,3 +1,10 @@
+## Added by Me
+```
+uv sync --extra webui
+uv tool install "huggingface-hub[cli,hf_xet]"
+hf download IndexTeam/IndexTTS-2 --local-dir=checkpoints
+uv run webui.py
+```
 
 
 <div align="center">
